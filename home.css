@@ -1,0 +1,80 @@
+
+
+/* Michelle Togara
+		Infos 254 Project
+		Style Sheet for Stellenbosch Golf Course Resort 
+*/
+
+html {
+	background-image:url(rocks.jpg);
+	background-repeat: repeat;
+}
+
+header {
+	color: white;
+	font-size: 25px;
+	background-color: black;
+	text-align:center;
+	padding: 3px;
+	
+}
+
+/* Navigation Styles */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* Body Styles */
+body {
+
+	top: 10px;
+	display: block;
+	width: 80%;
+	left: 10%;
+	position: relative;
+	font-family: century gothic;
+	font-size: 13pt;
+	color: black;
+	text-align: justify;
+	float: left;
+	
+	padding: 10px;
+	background-color: white;
+	
+}
+
+section {
+	left: 10%;
+}
+
+
+footer {
+	
+	color: white;
+	clear: both;
+	background-color: black;
+	text-align:center;
+	padding: 3px;
+}
